@@ -51,17 +51,12 @@
 `
 
 ### Example CSS
-`
-    @import url(./your_folder/slider.css);
-`
+`@import url(./your_folder/slider.css);`
 
 ### Example JS
-`
-    import {Slider} from './your_folder/Slider.js';
-`
-`
-    window.onload = new Slider;
-`
+`import {Slider} from './your_folder/Slider.js';`
+#### Example call
+`window.onload = new Slider;`
 
 ## [License](LICENSE)
 MIT License
