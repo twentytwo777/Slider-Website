@@ -12,7 +12,7 @@
 ## Peculiarities
 - Easy to install
 - Open source code
-- Change beyond recognition through css
+- Change beyond recognition through CSS
 
 ### Example CSS
 `@import url(./your_folder/slider.css);`
