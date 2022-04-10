@@ -1,2 +1,2 @@
 import {Slider} from './component/Slider.js';
-new Slider()
+window.onload = new Slider;
