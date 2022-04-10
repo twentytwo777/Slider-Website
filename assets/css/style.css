@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 body {
     background: #222;
     color: #fff;
     font-family: 'Montserrat', sans-serif;
 }
+
 img {user-select: none;}
+
 .bis {
     position: absolute;
     top: 50%;
@@ -11,6 +15,7 @@ img {user-select: none;}
     transform: translateX(-50%) translateY(-50%);
     margin: auto;
 }
+
 .block_img_scroll {
     background: #333;
     width: 400px;
@@ -19,13 +24,16 @@ img {user-select: none;}
     margin: 0;
     border-radius: 10px;
 }
+
 .hides {display: none;}
+
 .block_img_scroll img {
     width: 400px;
     border-radius: 10px;
     height: 400px;
     position: absolute;
 }
+
 .block_img_scroll-info {
     position: absolute;
     bottom: 0;
@@ -35,17 +43,20 @@ img {user-select: none;}
     padding: 1rem;
     border-radius: 0 0 9px 9px;
 }
+
 .block_img_scroll-info_title {
     font-size: 20px;
     user-select: none;
     font-weight: 700;
     margin-bottom: .25rem;
 }
+
 .block_img_scroll-info_subtitle {
     margin-bottom: .5rem;
     font-size: 14px;
     font-weight: 500;
 }
+
 .block_img_scroll-info_btn {
     color: #fff;
     text-decoration: none;
@@ -56,10 +67,12 @@ img {user-select: none;}
     font-weight: 600;
     letter-spacing: .5px;
 }
+
 .block_img_scroll-info_btn:hover {
     color: rgb(192, 192, 192);
     background: rgb(21, 43, 85);
 }
+
 .sButtons-next, .sButtons-previous {
     position: absolute;
     font-size: 20px;
@@ -68,17 +81,20 @@ img {user-select: none;}
     cursor: pointer;
     transition: .3s;
 }
+
 .sButtons-next {
     top: 10px;
     right: 20px;
     bottom: 0;
     margin: auto;
 }
+
 .sButtons-previous {
     top: 10px;
     left: 20px;
     bottom: 0;
     display: none;
 }
+
 .sButtons-previous.showpr {display: block;}
 .sButtons-next:hover, .sButtons-previous:hover {color: rgb(192, 192, 192);}
