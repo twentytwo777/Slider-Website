@@ -58,7 +58,9 @@
 ### Example JS
 `
     import {Slider} from './your_folder/Slider.js';
-    `window.onload = new Slider;`
+`
+`
+    window.onload = new Slider;
 `
 
 ## [License](LICENSE)
