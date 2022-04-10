@@ -14,42 +14,6 @@
 - Open source code
 - Change beyond recognition through css
 
-### Example HTML
-`
-    <div class="block_img_scroll">
-        <div class="block_img_scroll__slide">
-            <img src="./assets/img/1.jpg" />
-            <div class="block_img_scroll-info">
-                <div class="block_img_scroll-info_title">
-                    Simple Slider
-                </div>
-                <div class="block_img_scroll-info_subtitle">
-                    This is simple slider for your website, check below!
-                </div>
-                <a href="https://github.com/twentytwo777/Slider-Website" target="_blank" class="block_img_scroll-info_btn">
-                    Show now
-                </a>
-            </div>
-        </div>
-        <div class="block_img_scroll__slide">
-            <img src="./assets/img/2.jpg" />
-            <div class="block_img_scroll-info">
-                <div class="block_img_scroll-info_title">
-                    That's man is creator this slider
-                </div>
-                <div class="block_img_scroll-info_subtitle">
-                    twenty two
-                </div>
-                <a href="https://vk.com/twentytwo777" target="_blank" class="block_img_scroll-info_btn">
-                    Contact
-                </a>
-            </div>
-        </div>
-        <div class="sButtons-next"><i class="fas fa-chevron-right"></i></div>
-        <div class="sButtons-previous"><i class="fas fa-chevron-left"></i></div>
-    </div>
-`
-
 ### Example CSS
 `@import url(./your_folder/slider.css);`
 
